@@ -4,6 +4,10 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+function Header(){
+  return <img src={Image} alt="Image" />;
+}
+
 ReactDOM.render(
   <React.StrictMode>
     <App />
