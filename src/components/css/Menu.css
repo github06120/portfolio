@@ -1,0 +1,23 @@
+.menu{
+    
+}
+
+.menu-list{
+    text-align: right;
+}
+.menu-list li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 12px;
+    margin-left: 12px;
+    font-size: 70px;
+}
+.menu-list a{
+    text-decoration: none;
+    color: black;
+}
+.menu-list>li.current>a{
+    border-bottom: solid;
+    border-color: black;
+    border-width: 2px;
+}
