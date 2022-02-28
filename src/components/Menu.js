@@ -11,7 +11,8 @@ class Menu extends React.Component {
             <body>
             <div class="menu">
                 <ul class="menu-list">
-                <li class="current">
+                <li> 
+                    {/* *class="current"> */}
                     <Link to="/" class='button'>Home</Link>
                 </li>
                 <li>

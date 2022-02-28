@@ -8,7 +8,7 @@ class Access extends React.Component {
   render() {
     return (
       <div class="access">
-          <h1 >連絡先</h1>
+        <h1 class="renraku">連絡先</h1>
         <img src={insta}></img>
         <a href="https://www.instagram.com/moon_stone_xyz/" class="name">instagram</a>
         <img src={gith} class='git'></img>
