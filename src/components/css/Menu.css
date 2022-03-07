@@ -1,5 +1,5 @@
 .menu{
-    
+    background-color: #CCFFFF;
 }
 
 .menu-list{
@@ -10,11 +10,12 @@
     display: inline-block;
     margin-right: 20px;
     margin-left: 20px;
-    font-size: 70px;
+    font-size: 3vw;
 }
 .menu-list a{
     text-decoration: none;
-    color: black;
+    color: #0011ff;
+    font-size: 3vw;
 }
 .menu-list>li.current>a{
     border-bottom: solid;

@@ -1,0 +1,31 @@
+.about{
+    
+}
+
+.title{
+    text-align: center;
+    font-size: 5vw;
+}
+.titleImg{
+    float: left;
+    margin: 2vw;
+    width: 32vw;
+    height: auto;
+}
+
+.h2body{
+    text-align: center;
+    font-size: 2vw;
+}
+
+.body{
+    text-align: center;
+    font-size: 2vw;
+}
+span{
+    color: red;
+}
+
+
+
+
