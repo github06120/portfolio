@@ -2,14 +2,47 @@
     margin: auto;
 }
 
-.videohome{
-    display: block;
-    margin: auto;
-    width: 80vw;
-    height: 90vh;
-}
 .title{
+    margin: 2vw;
+}
+
+.profile{
+    display: flex;
+}
+.profile .img{
+    margin: auto;
+    width: 25vw;
+    margin-right: 0;
     
+    /* width: 25vw;
+    margin: 3vw;
+    padding: 0;
+    overflow: hidden;
+    position: relative; */
+}
+.profile .p{
+    margin: auto;
+    font-size: 1vw;
+    margin-left: 10vw;
+    
+}
+
+
+
+.performance{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60vw;
+
+}
+.performance .p{
+    border-bottom:0.1em solid #ccc;
+    margin-left: 1vw;
+    margin-bottom: 3vh;
+    font-size: 1vw;
+
 }
 
 .works {
@@ -18,9 +51,11 @@
     flex-wrap: wrap;
     justify-content: space-around;
     margin: auto;
+    margin-left: 10vw;
+    margin-right: 10vw;
 }
 .works > *{
-    min-width: 45vw;
+    min-width: 35vw;
     flex-basis: 25%;
     background: #FFF;
     text-align: center;
@@ -36,7 +71,7 @@
     box-shadow: 8px 8px 2px rgb(0, 0, 0, 0.22);
 }
 .work-title{
-    font-size: 3vmin;
+    font-size: 1vw;
     background: #0099FF;
     padding: 0.5vw;
     text-align: center;
@@ -48,7 +83,7 @@
 
 .work-a{
     font-size: 1.1vw;
-    font-weight: bold;
+    margin-bottom: 0;
 }
 
 .work1{
@@ -64,14 +99,14 @@
     margin: auto;
     margin-top: 2vh;
     margin-bottom: 2vw;
-    width: 30vw;
+    width: 25vw;
 }
 
 .work3{
     display: block;
     margin: auto;
-    margin-top: 2vh;
-    margin-bottom: 2vw;
+    margin-top: 4vh;
+    margin-bottom: 4vh;
     width: 30vw;
 }
 
@@ -91,33 +126,28 @@
     width: 30vw;
 }
 
+
 .button{
     width: 10vw;
-    height: 5vh;
+    height: auto;
     margin: 1vw;
     font-size: 1vw;
+    margin-bottom: auto;
+    max-width: 100%;
 }
+
+
 
 .perfor-dl{
     margin: 1vw;
     width: 100vw;
 }
-.perfor-dt{
-    border-bottom:0.1em solid #ccc;
-    float:left;
-    clear: left;
-    margin-left: 1vw;
-    margin-bottom: 3vh;
-    font-size: 2vw;
-    
+
+
+.videohome{
+    display: block;
+    margin: auto;
+    margin-top: 10vh;
+    width: 50vw;
+    height: 60vh;
 }
-.perfor-dd{
-    border-bottom:0.1em solid #ccc;
-    float: left;
-    margin-bottom: 3vh;
-    font-size: 2vw;
-}
-
-
-
-  
