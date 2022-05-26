@@ -41,13 +41,12 @@
 
 }
 .a{
-    border-bottom: 2px solid blue;
     display: inline-block;
     margin-bottom: 3vh;
     font-size: 1.2vw;
 }
-.perfor .p{
-    
+.num{
+    font-size: 1vw;
 }
 
 .works {

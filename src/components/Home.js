@@ -32,9 +32,9 @@ class Home extends React.Component {
 
         <div className="performance">
           <a href="https://www.ipsj.or.jp/event/taikai/84/ipsj_web2022/data/pdf/6ZH-07.html" className="a">「ARを用いた体感型学習支援ゲームの開発」　情報処理学会 　第８４回全国大会</a>
-          　　　　　　 　　　２０２２  ０３. ０５
+          <a className="num">　　　　　　　２０２２  ０３. ０５</a>
           <a href="https://www.ipsj.or.jp/event/taikai/84/ipsj_web2022/data/pdf/6ZH-07.html" className="a">「モーション認識を用いた運動型AR学習ゲームの開発」　情報処理学会 　第８４回全国大会 </a>
-          　　　２０２２. ０３. ０５
+          <a className="num">　２０２２. ０３. ０５</a>
         </div>
 
         <div className="title">開発ソフトウェア</div>
